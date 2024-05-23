@@ -14,7 +14,7 @@ document.addEventListener("keydown",
     });
  function movimentaNaveTeclado(tecla) {
 ctx.clearRect(x, 810-260, 260, 260);
-if (tecla == 67) { // Seta para esquerda
+if (tecla == 88) { // Seta para esquerda
 x -= 50;
 x = Math.max(0, x);
 } else if (tecla == 86) { // Seta para direita
